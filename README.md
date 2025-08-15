@@ -1,21 +1,23 @@
 # Estratégia de Resolução de Problemas e Debugging em Ambientes de Nuvem
 
-Como parte de uma atividade do curso de aprofundamento Cloud da TalentCloud parceria Proz+AWS
-Este documento apresenta uma **estratégia** voltada para ambientes na **AWS** com foco na prevenção, detecção e resolução rápida de incidentes.
+Como parte de uma atividade do curso de **Aprofundamento Cloud** da **TalentCloud** parceria **Proz + AWS**.
+
+Este documento apresenta uma **estratégia** voltada para ambientes na **AWS** com foco na **prevenção**, **detecção** e **resolução rápida de incidentes**.
 
 ## 📌 Introdução
 
 A manutenção de alta disponibilidade e boa performance em aplicações de **arquiteturas distribuídas** na nuvem exige práticas consistentes de **observabilidade**, **monitoramento** e **debugging**.  
 Referências como *Systems Performance: Enterprise and the Cloud* (Brendan Gregg, 2013) e *Observability Engineering: Achieving Production Excellence* (Liz Fong-Jones, 2022) reforçam a importância de uma abordagem sistemática e baseada em dados para compreender e corrigir problemas.
+
 ---
 
 ## 🎯 Objetivo
 
-Desenvolver e implementar um conjunto de práticas, ferramentas e processos que:
+**Desenvolver** e **implementar** um conjunto de **práticas**, **ferramentas** e **processos** que:
 
-- Aumentem a capacidade de identificar e diagnosticar problemas de forma rápida.
-- Reduzam o tempo médio de resolução (MTTR).
-- Garantam a disponibilidade e performance contínua dos serviços.
+- **Aumentem** a capacidade de identificar e diagnosticar problemas de forma rápida.
+- **Reduzam** o tempo médio de resolução (MTTR).
+- **Garantam** a disponibilidade e performance contínua dos serviços.
 
 ---
 
@@ -61,16 +63,16 @@ O desafio é criar um **plano estruturado de troubleshooting** para lidar com pr
 - Correlacionar logs e métricas no CloudWatch e ELK.
 - Utilizar **X-Ray** para analisar fluxos de requisição.
 - Identificar se o problema é de:
-  - Rede
-  - Banco de dados
-  - Aplicação
-  - Infraestrutura (CPU, memória, disco)
+  - **Rede**
+  - **Banco de dados**
+  - **Aplicação**
+  - **Infraestrutura** (CPU, memória, disco)
 
 ### 3. **Ação Corretiva**
 
-- Escalonar recursos (Auto Scaling) se houver gargalo de capacidade.
-- Corrigir bugs detectados nos serviços.
-- Aplicar rollback caso a falha seja proveniente de uma atualização recente.
+- **Escalonar** recursos (Auto Scaling) se houver gargalo de capacidade.
+- **Corrigir** bugs detectados nos serviços.
+- **Aplicar** rollback caso a falha seja proveniente de uma atualização recente.
 
 ### 4. **Prevenção**
 
@@ -82,9 +84,9 @@ O desafio é criar um **plano estruturado de troubleshooting** para lidar com pr
 
 ## 🧑‍🤝‍🧑 Treinamento da Equipe
 
-- Workshops sobre uso das ferramentas de observabilidade.
-- Simulações de incidentes para treinar resposta rápida.
-- Documentação acessível com procedimentos de troubleshooting.
+- **Workshops** sobre uso das ferramentas de observabilidade.
+- **Simulações de incidentes** para treinar resposta rápida.
+- **Documentação acessível** com procedimentos de troubleshooting.
 
 ---
 
