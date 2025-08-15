@@ -1,12 +1,12 @@
 # Estratégia de Resolução de Problemas e Debugging em Ambientes de Nuvem
 
+Como parte de uma atividade do curso de aprofundamento Cloud da TalentCloud parceria Proz+AWS
+Este documento apresenta uma **estratégia** voltada para ambientes na **AWS** com foco na prevenção, detecção e resolução rápida de incidentes.
+
 ## 📌 Introdução
 
 A manutenção de alta disponibilidade e boa performance em aplicações de **arquiteturas distribuídas** na nuvem exige práticas consistentes de **observabilidade**, **monitoramento** e **debugging**.  
 Referências como *Systems Performance: Enterprise and the Cloud* (Brendan Gregg, 2013) e *Observability Engineering: Achieving Production Excellence* (Liz Fong-Jones, 2022) reforçam a importância de uma abordagem sistemática e baseada em dados para compreender e corrigir problemas.
-
-Este documento apresenta uma **estratégia** voltada para ambientes na **AWS** com foco na prevenção, detecção e resolução rápida de incidentes.
-
 ---
 
 ## 🎯 Objetivo
